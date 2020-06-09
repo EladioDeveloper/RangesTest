@@ -1,0 +1,41 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRangeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Validate should return a range with 2,5 as End Points[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Validate should return a range with 5,12 as End Points[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Validate should return a null value to {-2,6}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Validate should return a rnull value to [-10,0[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return true with this input {2,3,4,5}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return true with this input {5,6,7,8,9,10,11,12}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return false with this input {-1,0,1,2,3,4,8,20}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return false with this input {-10,-9,-8,-7,-6,-5,4,3}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotContains should return false with this input {2,3,4,5}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return false with this input {5,6,7,8,9,10,11,12}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return true with this input {-1,0,1,2,3,4,8,20}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Contains should return true with this input {-10,-9,-8,-7,-6,-5,4,3}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Allpoints should return an array as this {2,3,4,5}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Allpoints should return an array as this {5,6,7,8,9,10,11,12}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Allpoints should return an array as this {-1,0,1,2,3,4,5}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Allpoints should return an array as this {- 10,-9,-8,-7,-6,-5,-4,-3}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ContainsRange should return true with this range (1,4][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ContainsRange should return true with this range (5,11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ContainsRange should return false with this range [-5,6)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ContainsRange should return false with this range [-10,0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotContainsRange should return false with this range (1,4][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotContainsRange should return false with this range (5,11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotContainsRange should return true with this range [-5,6)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotContainsRange should return true with this range [-10,0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EndPoints should return an Array as this {2,5}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EndPoints should return an Array as this {5,12}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EndPoints should return an Array as this {-1,5}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EndPoints should return an Array as this {-10,-3}[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OverLaps should return true to this range [4,14][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OverLaps should return true to this range (1,8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OverLaps should return false to this range (7,15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OverLaps should return false to this range (0,15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Equals shold return true to this range (1,6)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Equals shold return true to this range [5,13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Equals shold return false to this range (-2,0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Equals shold return false to this range [-10,3][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotEquals shold return false to this range (1,6)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotEqualsshold return false to this range [5,13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotEqualsshold return true to this range (-2,0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NotEqualsshold return true to this range [-10,3][0m[0m

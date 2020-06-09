@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="ELADIO-PC" name="RangeTest" tests="40" errors="0" failures="0" skipped="0" time="0.109" timestamp="2020-06-09T04:38:30">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/><property name="java.vm.version" value="25.251-b08"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="D:\INTEC\Temporal\rangetest"/><property name="java.runtime.version" value="1.8.0_251-b08"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\eladi\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\eladi\AppData\Local\Temp\jna-96589471\jna7386500649647366541.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\sbt\bin;C:\Users\eladi\AppData\Local\Microsoft\WindowsApps;C:\Users\eladi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\eladi\AppData\Roaming\npm;C:\Users\eladi\.dotnet\tools;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="swoval.tmpdir" value="C:\Users\eladi\.sbt\1.0"/><property name="user.home" value="C:\Users\eladi"/><property name="user.timezone" value="America/La_Paz"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\\bin\sbt-launch.jar"/><property name="user.name" value="eladi"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot test"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_251"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_251"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\ext;C:\windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar;C:\Program Files\Java\jre1.8.0_251\lib\rt.jar;C:\Program Files\Java\jre1.8.0_251\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_251\lib\jce.jar;C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_251\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="RangeTest" name="Validate should return a range with 2,5 as End Points" time="0.052">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Validate should return a range with 5,12 as End Points" time="0.007">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Validate should return a null value to {-2,6}" time="0.003">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Validate should return a rnull value to [-10,0[" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return true with this input {2,3,4,5}" time="0.011">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return true with this input {5,6,7,8,9,10,11,12}" time="0.002">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return false with this input {-1,0,1,2,3,4,8,20}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return false with this input {-10,-9,-8,-7,-6,-5,4,3}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotContains should return false with this input {2,3,4,5}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return false with this input {5,6,7,8,9,10,11,12}" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return true with this input {-1,0,1,2,3,4,8,20}" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Contains should return true with this input {-10,-9,-8,-7,-6,-5,4,3}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Allpoints should return an array as this {2,3,4,5}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Allpoints should return an array as this {5,6,7,8,9,10,11,12}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Allpoints should return an array as this {-1,0,1,2,3,4,5}" time="0.002">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Allpoints should return an array as this {- 10,-9,-8,-7,-6,-5,-4,-3}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="ContainsRange should return true with this range (1,4]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="ContainsRange should return true with this range (5,11)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="ContainsRange should return false with this range [-5,6)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="ContainsRange should return false with this range [-10,0)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotContainsRange should return false with this range (1,4]" time="0.002">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotContainsRange should return false with this range (5,11)" time="0.006">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotContainsRange should return true with this range [-5,6)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotContainsRange should return true with this range [-10,0)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="EndPoints should return an Array as this {2,5}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="EndPoints should return an Array as this {5,12}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="EndPoints should return an Array as this {-1,5}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="EndPoints should return an Array as this {-10,-3}" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="OverLaps should return true to this range [4,14]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="OverLaps should return true to this range (1,8)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="OverLaps should return false to this range (7,15)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="OverLaps should return false to this range (0,15)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Equals shold return true to this range (1,6)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Equals shold return true to this range [5,13)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Equals shold return false to this range (-2,0)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="Equals shold return false to this range [-10,3]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotEquals shold return false to this range (1,6)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotEqualsshold return false to this range [5,13)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotEqualsshold return true to this range (-2,0)" time="0.0">
+                                                 
+                                               </testcase><testcase classname="RangeTest" name="NotEqualsshold return true to this range [-10,3]" time="0.001">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
